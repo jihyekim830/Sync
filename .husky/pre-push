@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "🚀 push 전 최종 검증 중..."
+
+pnpm validate
+
+echo "✅ 검증 완료!"
