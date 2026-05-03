@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // 파일을 저장할 때 끝에 빈 줄 하나를 자동으로 추가 (POSIX 표준 준수)
+  "files.insertFinalNewline": true,
+  // 여러 탭을 열었을 때 파일명이 겹치면 부모 폴더 이름까지 보여줌
+  // 예: index.tsx (entities/user) / index.tsx (features/auth)
+  "workbench.editor.labelFormat": "short",
+  // 붙여넣기 할 때 자동으로 import 문 추가
+  "js/ts.suggest.autoImports": true
+}
