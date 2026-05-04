@@ -2,6 +2,6 @@
 
 echo "🚀 push 전 최종 검증 중..."
 
-pnpm validate
+pnpm validate || exit 1
 
 echo "✅ 검증 완료!"
